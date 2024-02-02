@@ -33,15 +33,6 @@
 			<version>5.2.25.RELEASE</version>
 		</dependency>
 
-		
-		<!-- Spring JDBC Template -->
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>5.2.25.RELEASE</version>
-		</dependency>
-
 
 		<!-- MySQL Connector -->
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -70,6 +61,48 @@
 			<scope>provided</scope>
 		</dependency>
 
+
+		<!-- Hibernate Core -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.5.Final</version>
+		</dependency>
+
+		<!-- Spring Object/Relational Mapping -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>5.2.25.RELEASE</version>
+		</dependency>
+
+		<!-- Hibernate EntityManager -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>5.5.6.Final</version>
+		</dependency>
+
+
+		<!-- Spring Security Web -->
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->  
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>5.3.13.RELEASE</version>
+		</dependency>
+		
+		<!-- Spring Security Config -->
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>5.3.13.RELEASE</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>MBIP</finalName>
