@@ -14,7 +14,7 @@ import entity.RecycleActivity;
 
 //using Hibernate
 @Service
-public class TemplateDao {
+public class UserDao {
 	
 	@Autowired
 	private SessionFactory sessionFactory;
